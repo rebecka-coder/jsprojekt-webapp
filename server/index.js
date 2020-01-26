@@ -16,7 +16,7 @@ app.all('/*', function(req, res, next) {
 	next();
 });
 
-//Länk till goods.js
+//Länk till posts.js
 const posts = require('./routes/api/posts');
 
 app.use('/api/posts', posts);
